@@ -1,0 +1,329 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarBackgroundColor": "#00CA74",
+				//  "app-plus": {
+				// 		"bounce": "none",
+				// 		"titleNView": {
+				// 			"buttons": [ 
+				// 				{
+				// 					"text": "我的", 
+				// 					"fontSize":"16",
+				// 					"float": "right",
+				// 					"color":"#fff"
+				// 				},
+				// 				{
+				// 					"text": "唐山", 
+				// 					"fontSize":"16",
+				// 					"float": "left",
+				// 					"color":"#fff"
+				// 				}
+				// 			],
+				// 		"searchInput":{
+				// 				"align": "center",
+				// 				"placeholder": "搜索你的内容",
+				// 				"borderRadius":"50rpx",
+				// 				"backgroundColor": "#fff"
+				// 		}
+				// 	}
+				// }
+				"navigationStyle": "custom",
+				"app-plus": {  
+					"titleNView": false,
+					"bounce" : "none" // 取消APP端iOS回弹,避免与下拉刷新冲突
+				}
+				// "disableScroll": true // 禁止原生页面滚动, 解决Android小程序下拉卡顿的问题
+			}
+		}
+		,{
+		    "path" : "pages/shop/shop",
+		    "style" : {
+				"navigationStyle": "custom",//自定义
+				"app-plus": {  
+					"titleNView": false,//原生导航栏不显示
+					"bounce" : "none" // 取消APP端iOS回弹,避免与下拉刷新冲突
+				}
+			}
+		}
+		,{
+		    "path" : "pages/yyh/yyh",
+		    "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {  
+				 	"titleNView": false,
+				 	"bounce" : "none" // 取消APP端iOS回弹,避免与下拉刷新冲突
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/login/login",
+            "style" : {
+				// "app-plus": {
+				// 	"titleNView": false
+				// 	// "softinputNavBar": "none"
+				// }
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "登录",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" : {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/forgetPsw/forgetPsw",
+            "style" : {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "星火农林",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/my/message/message",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "完善信息",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/my/publish/publish",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "我的发布",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/my/changePsw/changePsw",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "修改密码",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/yyh/yyhInfo/yyhInfo",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "星火农林",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/my/myCollect/myCollect",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "我的收藏",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/my/mySell/mySell",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "我的销售",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/index/article/article",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "添加新闻",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/index/article/editor/editor",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "富文本",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/index/newsInfo/newsInfo",
+            "style" : {
+				// "navigationBarBackgroundColor": "#00CA74",
+				// "navigationBarTitleText": "星火农林",
+				// "navigationBarTextStyle":"white",
+				//  "app-plus": {
+				// 		"titleNView": {
+				// 			"buttons": [ 
+				// 				{
+				// 					"text": "\ue642", /*多加个u*/
+				// 					"fontSize":"20px",
+				// 					// "float": "right",
+				// 					// "color":"#fff",
+				// 					"fontSrc":"/static/font/iconfont.ttf"
+				// 				}
+				// 			]
+				// 	}
+				// }
+				"navigationStyle": "custom",
+				"app-plus": {  
+					"titleNView": false,
+					"bounce" : "none" // 取消APP端iOS回弹,避免与下拉刷新冲突
+				}
+			}
+        }
+        ,{
+            "path" : "pages/shop/shopInfo/shopInfo",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "星火农林",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/yyh/forumPublish/forumPublish",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "帖子发布",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/yyh/forumPublish/editor/editor",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "富文本",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/shop/shopPublish/shopPublish",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "交易发布",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/shop/shopPublish/editor/editor",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "富文本",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/my/editNews/editNews",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "编辑新闻",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/my/editNews/editor/editor",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "富文本",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/my/editInfo/editInfo",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "编辑帖子",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/my/editInfo/editor/editor",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "富文本",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/my/editShop/editShop",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "编辑商品",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/my/editShop/editor/editor",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "富文本",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/register/service/service",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "服务条款",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/register/privacy/privacy",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "隐私政策",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/my/myLike/myLike",
+            "style" : {
+				"navigationBarBackgroundColor": "#00CA74",
+				"navigationBarTitleText": "喜欢商品",
+				"navigationBarTextStyle":"white"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	       "color": "#999999",
+	       "selectedColor": "#00CA74",
+	       "borderStyle": "black",
+	       "backgroundColor": "#ffffff",
+	       "list": [{
+	               "pagePath": "pages/yyh/yyh",
+	               "iconPath": "static/home/yyh.png",
+	               "selectedIconPath": "static/home/yyhActive.png",
+	               "text": "亦有汇"
+	           }, {
+	               "pagePath": "pages/index/index",
+	               "iconPath": "static/home/home.png",
+	               "selectedIconPath": "static/home/homeActive.png",
+	               "text": "首页"
+	           },
+	           {
+	               "pagePath": "pages/shop/shop",
+	               "iconPath": "static/home/shop.png",
+	               "selectedIconPath": "static/home/shopActive.png",
+	               "text": "商城"
+	           }
+	       ]
+	   }
+}

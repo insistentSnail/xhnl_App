@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1592645511597'); /* IE9 */
+  src: url('iconfont.eot?t=1592645511597#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPgAAsAAAAACAgAAAOTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDFAqDUIMOATYCJAMQCwoABCAFhG0HRBv0BhFVnCHIPhJy06S/YSquGt08eJ7qrPe7Kpjukby0khV4M24gT9Bps7Vp1zAmwjAl58F3+QfysPMXwjpfp6tUhSzC9X+uqRebeH6guWSUH+0NcJRAA+q2KKAC2oRxw9hNlAexHwKYxJKN1K3ftC1ONGCYADJ00IBeOFNadE2h4ESwl8zVyHJsOI0FxnVgGf+9fKNQnGBgU4CxLfvX60vNj7EfayuXx0VXisAbzwxoi0AB2YAG6Vlq7YwKo9koTKe7JhewoxGMsdweD3CsFtcV2+FfHigMBMQOyPcGoFiKKfgYi7mxrJaoxhBltUX+yedrAJy94/OAM7ouGNDWQOGIlkjfyCAliOzoSSZcvV/1/MP69++33fEg48GDlDWLwvY96nDoUdLDh+1lSv+1C4P7rmbDqbS0bhsOWH6LDkX1SNlzJsrddfX+YN+1B0O7D1i3KKRfz66DcR1YdEhk272yRXdiEtd5+HCKW1bvDjY7DrD6moMtMbv4derp3am8s9mhrdXHO72dT4ec4ArtRM6+c/dqmZXVu+WoAbJgttEnIqvdshZ9vxyJ/Jz4OPPzET1lW1Y7L+lT3HaAQI1Ev2cD14WvI+OeBtprVW1RtSJwf/DcoJOBMsucWNsecCMypuB29O2CmCp5HXQblvzhww41lB49pUFrv7qxdf1aeg1wZ80zW/nXia3j30oa9uhJje9/wFnF9f/wMnlrzQtfaj6u4cDxokbl/Rr1Q1rvv2IdfvXY/XnWuWtPPb8i2n4Y3eb1/jonLjQNBloCBqrDxgfwHFceVfob++HzbZirh1/V307rWqqeBf2bx+d4XG6NcgFODGjN+2m8liXaFQCd1rYQc71JmtocATAAE+rgZxUDBLKMYQ9hFZsFp84TwcBBDCicJKOanA02LIrBjpMaYJJFtNgiCGaLaC8gk7cAgj8fMPDlAij8+aKa/AMbofzBjr8oMGkvQWtapMqgSx1GJZhCPEORUKuRQS5B4Q2zvlacFHDKC7krAuDZbjYRYYs8xoRuyHwRDZqpgVA4DOuawDCVmIidi5jAcXTZg+yEmtWFOjCIQkBSgJgZoCCBaNG0snDJff8GktFTo+AaQof5BcJ0FK0DHjZuCzSStq0I13JKx0CGjyBoAA1DNAChYEZqGCUAU96rBEkQbPIeYUOAI5XTbaX2/PLmCTcBJuAYLYYo0WJDTSza65ic+hmthMx8iDWrFQA=') format('woff2'),
+  url('iconfont.woff?t=1592645511597') format('woff'),
+  url('iconfont.ttf?t=1592645511597') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1592645511597#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xin:before {
+  content: "\e642";
+}
+
+.icon-shouye-copy:before {
+  content: "\e641";
+}
+
+.icon-shouye:before {
+  content: "\e61e";
+}
+
